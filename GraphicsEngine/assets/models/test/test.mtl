@@ -1,0 +1,161 @@
+# Blender MTL File: 'test.blend'
+# Material Count: 12
+
+newmtl bricks
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd white_bricks_basecolor.jpg
+norm white_bricks_normal.jpg
+map_Pr white_bricks_roughness.jpg
+
+newmtl dirt
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd dirt_basecolor.jpg
+norm dirt_normal.jpg
+map_Pr dirt_roughness.jpg
+
+newmtl glass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd glass_basecolor.jpg
+norm glass_normal.jpg
+map_Pr glass_roughness.jpg
+
+newmtl golden_tiles
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd golden_tiles_basecolor.jpg
+norm golden_tiles_normal.png
+map_Pr golden_tiles_roughness.jpg
+
+newmtl ice
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ice_basecolor.jpg
+norm ice_normal.jpg
+map_Pr ice_roughness.jpg
+map_Pm ice_metal.jpg
+
+newmtl leather
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd leather_basecolor.jpg
+norm leather_normal.jpg
+map_Pr leather_roughness.jpg
+
+newmtl lizard
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd lizard_basecolor.jpg
+norm lizard_normal.jpg
+map_Pr lizard_roughness.jpg
+map_Pm lizard_metal.jpg
+
+newmtl marble_tiles
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd marble_tiles_basecolor.jpg
+norm marble_tiles_normal.jpg
+map_Pr marble_tiles_roughness.jpg
+
+newmtl metal
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd metal_basecolor.jpg
+norm metal_normal.jpg
+map_Pr metal_roughness.jpg
+map_Pm metal_metallic.jpg
+
+newmtl pebbles
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd pebbles_basecolor.jpg
+norm pebbles_normal.jpg
+map_Pr pebbles_roughness.jpg
+
+newmtl snow
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd snow_basecolor.jpg
+norm snow_normal.jpg
+map_Pr snow_roughness.jpg
+
+newmtl tiles
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tiles_basecolor.jpg
+norm tiles_normal.jpg
+map_Pr tiles_roughness.jpg

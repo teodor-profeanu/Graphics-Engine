@@ -1,0 +1,61 @@
+//barrel distortion
+#version 330 core
+
+in vec2 textureCoord; // Texture coordinates
+out vec4 FragColor; // Output color
+
+uniform sampler2D tex; // Input texture
+uniform float distortionFactor; // Barrel distortion factor
+
+void main()
+{
+    // Normalize texture coordinates
+    vec2 texCoord = textureCoord * 2.0 - 1.0;
+
+    // Calculate barrel distortion
+    float r = length(texCoord);
+    float distortion = distortionFactor * r * r;
+
+    // Apply distortion to texture coordinates
+    texCoord *= 1.0 + distortion;
+
+    // Convert back to UV coordinates
+    texCoord = (texCoord + 1.0) / 2.0;
+
+    // Sample input texture and output color
+    FragColor = texture(tex, texCoord);
+}
+
+
+//radial blur
+#version 330 core
+
+in vec2 textureCoord; // Texture coordinates
+out vec4 FragColor; // Output color
+
+uniform sampler2D tex; // Input texture
+uniform vec2 blurCenter; // Center of the blur
+uniform float blurRadius; // Radius of the blur
+uniform float blurStrength; // Strength of the blur
+
+void main()
+{
+    // Normalize texture coordinates
+    vec2 texCoord = textureCoord * 2.0 - 1.0;
+
+    // Calculate distance from texture coordinates to blur center
+    vec2 offset = texCoord - blurCenter;
+    float distance = length(offset);
+
+    // Calculate blur amount based on distance from center
+    float blurAmount = smoothstep(blurRadius - blurStrength, blurRadius + blurStrength, distance);
+
+    // Apply blur to texture coordinates
+    vec2 blurredCoord = texCoord + offset * blurAmount;
+
+    // Convert back to UV coordinates
+    blurredCoord = (blurredCoord + 1.0) / 2.0;
+
+    // Sample input texture and output color
+    FragColor = texture(tex, blurredCoord);
+}
