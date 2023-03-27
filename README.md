@@ -1,8 +1,8 @@
 # Graphics Engine
 
-# Description
+### Description
 A C++, real-time, graphics renderer. It is quite bare bones at the moment but I tried making it a good base to build from.
-# Features
+### Features
 Fresnel effect specular light
 ![alt text](https://github.com/teodor-profeanu/Graphics-Engine/blob/main/GraphicsEngine/assets/screenshots/specularLight.png?raw=true)
 
